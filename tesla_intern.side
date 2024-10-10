@@ -1,0 +1,944 @@
+{
+  "id": "c2e6a1b0-4ad9-4c63-b9c9-14a467ead07f",
+  "version": "2.0",
+  "name": "tesla",
+  "url": "https://www.tesla.com/",
+  "tests": [{
+    "id": "fe051466-2eb3-47b7-87e0-f97648f6c8bc",
+    "name": "tesla_fulltime",
+    "commands": [{
+      "id": "0f5ceca0-7f7d-4943-b060-e91502d7bba4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tesla.com/careers/search/job/apply/221961",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de024e38-d28c-446d-9aa3-4859ace31773",
+      "comment": "",
+      "command": "type",
+      "target": "name=personal.firstName",
+      "targets": [
+        ["id=410e9e8d-7770-4f8b-b772-bd9cc1f63be7", "id"],
+        ["name=personal.firstName", "name"],
+        ["css=#\\34 10e9e8d-7770-4f8b-b772-bd9cc1f63be7", "css:finder"],
+        ["xpath=//input[@id='410e9e8d-7770-4f8b-b772-bd9cc1f63be7']", "xpath:attributes"],
+        ["xpath=//div[@id='step--personal']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Chiao-Wei"
+    }, {
+      "id": "1ec3e319-8ecd-44b8-bb02-20390e310034",
+      "comment": "",
+      "command": "type",
+      "target": "name=personal.lastName",
+      "targets": [
+        ["id=9850f8cb-f38f-4075-a7fc-763cc29944bb", "id"],
+        ["name=personal.lastName", "name"],
+        ["css=#\\39 850f8cb-f38f-4075-a7fc-763cc29944bb", "css:finder"],
+        ["xpath=//input[@id='9850f8cb-f38f-4075-a7fc-763cc29944bb']", "xpath:attributes"],
+        ["xpath=//div[@id='step--personal']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Hsu"
+    }, {
+      "id": "47f2e4f3-2488-4628-9892-a164f2544bda",
+      "comment": "",
+      "command": "type",
+      "target": "name=personal.phone",
+      "targets": [
+        ["id=e88fcd54-90d6-4572-a92c-1a67672db232", "id"],
+        ["name=personal.phone", "name"],
+        ["css=#e88fcd54-90d6-4572-a92c-1a67672db232", "css:finder"],
+        ["xpath=//input[@id='e88fcd54-90d6-4572-a92c-1a67672db232']", "xpath:attributes"],
+        ["xpath=//div[@id='step--personal']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "(631) 710-8463"
+    }, {
+      "id": "43265d5e-cf8a-44e7-aa13-f20f73dffbd6",
+      "comment": "",
+      "command": "select",
+      "target": "name=personal.phoneType",
+      "targets": [
+        ["css=.tds-layout--constrained", "css:finder"],
+        ["xpath=//div[@id='app']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "label=Mobile"
+    }, {
+      "id": "d7f54c13-87c9-4987-aada-404fd7ad5820",
+      "comment": "",
+      "command": "type",
+      "target": "name=personal.email",
+      "targets": [
+        ["id=4cbcc045-6f5b-4d0f-96cb-6262c8764c2e", "id"],
+        ["name=personal.email", "name"],
+        ["css=#\\34 cbcc045-6f5b-4d0f-96cb-6262c8764c2e", "css:finder"],
+        ["xpath=//input[@id='4cbcc045-6f5b-4d0f-96cb-6262c8764c2e']", "xpath:attributes"],
+        ["xpath=//div[@id='step--personal']/div/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "cwhsu.career@gmail.com"
+    }, {
+      "id": "735d4903-063b-4efb-ade0-555d481a6185",
+      "comment": "",
+      "command": "select",
+      "target": "name=personal.country",
+      "targets": [],
+      "value": "label=United States"
+    }, {
+      "id": "1176f674-46fb-497f-8309-1ab6ce3f7105",
+      "comment": "",
+      "command": "select",
+      "target": "name=personal.profileLinks[0].type",
+      "targets": [],
+      "value": "label=Portfolio"
+    }, {
+      "id": "fd599df0-f66b-4772-8c62-feb2da73ac2f",
+      "comment": "",
+      "command": "type",
+      "target": "name=personal.profileLinks[0].link",
+      "targets": [
+        ["id=52394471-d5a5-4254-aad2-e28ef7617dd9", "id"],
+        ["name=personal.profileLinks[0].link", "name"],
+        ["css=#\\35 2394471-d5a5-4254-aad2-e28ef7617dd9", "css:finder"],
+        ["xpath=//input[@id='52394471-d5a5-4254-aad2-e28ef7617dd9']", "xpath:attributes"],
+        ["xpath=//div[@id='step--personal']/fieldset/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "https://chiaoweihsu.com"
+    }, {
+      "id": "48e872d4-e43e-46ca-9776-6306e2fa0674",
+      "comment": "",
+      "command": "click",
+      "target": "name=personal.resume",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "771c7ec0-4fb2-43bc-956a-c01cdd662a89",
+      "comment": "",
+      "command": "click",
+      "target": "name=next",
+      "targets": [
+        ["name=next", "name"],
+        ["css=.tds-btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@name='next']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "372dad1a-a235-420c-b42e-0427c35f7d5a",
+      "comment": "",
+      "command": "select",
+      "target": "name=legal.legalNoticePeriod",
+      "targets": [],
+      "value": "label=In 1-2 weeks"
+    }, {
+      "id": "a691cfe6-ec0c-4120-b945-3cf429397b63",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[name='legal.legalImmigrationSponsorship'][value='yes']",
+      "targets": [
+        ["id=416615d7-298e-4b34-8fef-ffca2ebd43ff_yes", "id"],
+        ["name=legal.legalImmigrationSponsorship", "name"],
+        ["css=#\\34 16615d7-298e-4b34-8fef-ffca2ebd43ff_yes", "css:finder"],
+        ["xpath=//input[@id='416615d7-298e-4b34-8fef-ffca2ebd43ff_yes']", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5c73d5f-4b2a-4b2e-9d39-632d4f157044",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[name='legal.legalConsiderOtherPositions'][value='yes']",
+      "targets": [
+        ["id=75dc6819-1a5d-4c17-82bc-6bbfc1398783_yes", "id"],
+        ["name=legal.legalConsiderOtherPositions", "name"],
+        ["css=#\\37 5dc6819-1a5d-4c17-82bc-6bbfc1398783_yes", "css:finder"],
+        ["xpath=//input[@id='75dc6819-1a5d-4c17-82bc-6bbfc1398783_yes']", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a55b213-19c0-4db8-8557-296298edbbe2",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[name='legal.legalFormerTeslaEmployee'][value='no']",
+      "targets": [
+        ["id=7cb60bf2-e0b8-453f-bc11-1ba91fe94dce_no", "id"],
+        ["css=#\\37 cb60bf2-e0b8-453f-bc11-1ba91fe94dce_no", "css:finder"],
+        ["xpath=//input[@id='7cb60bf2-e0b8-453f-bc11-1ba91fe94dce_no']", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[4]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43be08cd-5409-49d9-bb72-9a20d9b82b63",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[name='legal.legalFormerTeslaInternOrContractor'][value='no']",
+      "targets": [
+        ["id=94a0ba02-2fb4-43a9-8920-93861eb3043a_yes", "id"],
+        ["name=legal.legalReceiveNotifications", "name"],
+        ["css=#\\39 4a0ba02-2fb4-43a9-8920-93861eb3043a_yes", "css:finder"],
+        ["xpath=//input[@id='94a0ba02-2fb4-43a9-8920-93861eb3043a_yes']", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[6]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8257e8be-a6e1-44dd-b60e-844f32e504c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[name='legal.legalReceiveNotifications'][value='yes']",
+      "targets": [
+        ["id=1701ca75-a421-4069-a143-010a9bbc8b34_no", "id"],
+        ["css=#\\31 701ca75-a421-4069-a143-010a9bbc8b34_no", "css:finder"],
+        ["xpath=//input[@id='1701ca75-a421-4069-a143-010a9bbc8b34_no']", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[5]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc722cc7-fd7e-48c0-b310-6501460d72cf",
+      "comment": "",
+      "command": "click",
+      "target": "name=legal.legalAcknowledgment",
+      "targets": [
+        ["id=e2016c99-9d5b-439b-9b1f-9de457fc032e", "id"],
+        ["name=legal.legalAcknowledgment", "name"],
+        ["css=#e2016c99-9d5b-439b-9b1f-9de457fc032e", "css:finder"],
+        ["xpath=//input[@id='e2016c99-9d5b-439b-9b1f-9de457fc032e']", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7130e80-fc12-4cb5-bf3b-0974598a160e",
+      "comment": "",
+      "command": "type",
+      "target": "name=legal.legalAcknowledgmentName",
+      "targets": [
+        ["id=8fcdea69-6357-4ae7-a526-208e9eb427c3", "id"],
+        ["name=legal.legalAcknowledgmentName", "name"],
+        ["css=#\\38 fcdea69-6357-4ae7-a526-208e9eb427c3", "css:finder"],
+        ["xpath=//input[@id='8fcdea69-6357-4ae7-a526-208e9eb427c3']", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset[2]/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "Chiao-Wei Hsu"
+    }, {
+      "id": "0ce0aeba-6ea0-4ce7-8716-cb8870c1be1d",
+      "comment": "",
+      "command": "click",
+      "target": "name=next",
+      "targets": [
+        ["name=next", "name"],
+        ["css=.tds-btn:nth-child(2)", "css:finder"],
+        ["xpath=//button[@name='next']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/form/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f1dac57-85e5-496c-a973-de277799e7a2",
+      "comment": "",
+      "command": "select",
+      "target": "name=eeo.eeoGender",
+      "targets": [
+        ["css=.tds-form-layout--multicolumn:nth-child(1) > .tds-form-item:nth-child(1) > .tds-form-input", "css:finder"],
+        ["xpath=//div[@id='step--eeo']/fieldset[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "label=I choose not to disclose"
+    }, {
+      "id": "ecd43556-5046-42d7-be06-c925114a6c96",
+      "comment": "",
+      "command": "select",
+      "target": "name=eeo.eeoVeteranStatus",
+      "targets": [],
+      "value": "label=I am not a protected veteran"
+    }, {
+      "id": "6ef7c977-cb76-45da-8b67-b5abfb8be127",
+      "comment": "",
+      "command": "select",
+      "target": "name=eeo.eeoRaceEthnicity",
+      "targets": [],
+      "value": "label=I choose not to disclose"
+    }, {
+      "id": "7122004d-b881-4066-9995-194c1d43db3c",
+      "comment": "",
+      "command": "select",
+      "target": "name=eeo.eeoDisabilityStatus",
+      "targets": [],
+      "value": "label=No, I do not have a disability and have not had one in the past"
+    }, {
+      "id": "5cdb1394-5f41-4bcc-aeec-1a93463e0083",
+      "comment": "",
+      "command": "type",
+      "target": "name=eeo.eeoDisabilityStatusName",
+      "targets": [
+        ["id=87973e7a-e6c1-4e20-8156-3b033f03debf", "id"],
+        ["name=eeo.eeoDisabilityStatusName", "name"],
+        ["css=#\\38 7973e7a-e6c1-4e20-8156-3b033f03debf", "css:finder"],
+        ["xpath=//input[@id='87973e7a-e6c1-4e20-8156-3b033f03debf']", "xpath:attributes"],
+        ["xpath=//div[@id='step--eeo']/fieldset[2]/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "Chiao-Wei Hsu"
+    }, {
+      "id": "49be17ed-cd82-47fc-9ff4-5a023cdd9987",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(12) > p:nth-child(2)",
+      "targets": [
+        ["css=div:nth-child(12) > p:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='step--eeo']/fieldset/div/div/div[5]/p[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Tesla is committed to working with and providing reasonable accommodations to individuals with disabilities. If you need a reasonable accommodation because of a disability for any part of the employment process, please call 510-602-3960 or send an e-mail to accommodationrequest@tesla.com and let us know the nature of your request and your contact information.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31ce89f3-aedd-43b9-80ad-d4b4054acc3b",
+      "comment": "",
+      "command": "click",
+      "target": "name=eeo.eeoAcknowledgment",
+      "targets": [
+        ["id=2112b6e9-df88-41c2-8432-256e50989cc2", "id"],
+        ["name=eeo.eeoAcknowledgment", "name"],
+        ["css=#\\32 112b6e9-df88-41c2-8432-256e50989cc2", "css:finder"],
+        ["xpath=//input[@id='2112b6e9-df88-41c2-8432-256e50989cc2']", "xpath:attributes"],
+        ["xpath=//div[@id='step--eeo']/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b2a03897-74a9-4fc8-87f5-8ef3765a5881",
+    "name": "tesla_intern",
+    "commands": [{
+      "id": "48fe16e2-2c69-4dbb-a105-71318e200664",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tesla.com/careers/search/job/apply/225116",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6603cf17-5b98-4b4e-8b38-dec5574bf310",
+      "comment": "",
+      "command": "type",
+      "target": "name=personal.firstName",
+      "targets": [
+        ["id=410e9e8d-7770-4f8b-b772-bd9cc1f63be7", "id"],
+        ["name=personal.firstName", "name"],
+        ["css=#\\34 10e9e8d-7770-4f8b-b772-bd9cc1f63be7", "css:finder"],
+        ["xpath=//input[@id='410e9e8d-7770-4f8b-b772-bd9cc1f63be7']", "xpath:attributes"],
+        ["xpath=//div[@id='step--personal']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Chiao-Wei"
+    }, {
+      "id": "9fa0560c-39a8-4ce4-be58-649cfd4a7437",
+      "comment": "",
+      "command": "type",
+      "target": "name=personal.lastName",
+      "targets": [
+        ["id=9850f8cb-f38f-4075-a7fc-763cc29944bb", "id"],
+        ["name=personal.lastName", "name"],
+        ["css=#\\39 850f8cb-f38f-4075-a7fc-763cc29944bb", "css:finder"],
+        ["xpath=//input[@id='9850f8cb-f38f-4075-a7fc-763cc29944bb']", "xpath:attributes"],
+        ["xpath=//div[@id='step--personal']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Hsu"
+    }, {
+      "id": "a7b47ba4-d77b-42e7-91e5-dcc2cbbd05bf",
+      "comment": "",
+      "command": "type",
+      "target": "name=personal.phone",
+      "targets": [
+        ["id=e88fcd54-90d6-4572-a92c-1a67672db232", "id"],
+        ["name=personal.phone", "name"],
+        ["css=#e88fcd54-90d6-4572-a92c-1a67672db232", "css:finder"],
+        ["xpath=//input[@id='e88fcd54-90d6-4572-a92c-1a67672db232']", "xpath:attributes"],
+        ["xpath=//div[@id='step--personal']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "(631) 710-8463"
+    }, {
+      "id": "fcedc323-f72e-48c7-8121-284ff19c5330",
+      "comment": "",
+      "command": "select",
+      "target": "name=personal.phoneType",
+      "targets": [
+        ["css=.tds-layout--constrained", "css:finder"],
+        ["xpath=//div[@id='app']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "label=Mobile"
+    }, {
+      "id": "be9fcb13-f3d1-4148-9ae2-fa6dce2716b0",
+      "comment": "",
+      "command": "type",
+      "target": "name=personal.email",
+      "targets": [
+        ["id=4cbcc045-6f5b-4d0f-96cb-6262c8764c2e", "id"],
+        ["name=personal.email", "name"],
+        ["css=#\\34 cbcc045-6f5b-4d0f-96cb-6262c8764c2e", "css:finder"],
+        ["xpath=//input[@id='4cbcc045-6f5b-4d0f-96cb-6262c8764c2e']", "xpath:attributes"],
+        ["xpath=//div[@id='step--personal']/div/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "cwhsu.career@gmail.com"
+    }, {
+      "id": "ca868ef0-09cf-4c00-b34e-56e908e38f0b",
+      "comment": "",
+      "command": "select",
+      "target": "name=personal.country",
+      "targets": [],
+      "value": "label=United States"
+    }, {
+      "id": "5f8f3058-ce3c-4946-98fe-6cf3464a67d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tds-icon-trigger",
+      "targets": [
+        ["css=.tds-icon-plus-small", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8a49df9-cfc1-4612-ab13-b69169110321",
+      "comment": "",
+      "command": "select",
+      "target": "name=personal.profileLinks[0].type",
+      "targets": [],
+      "value": "label=Portfolio"
+    }, {
+      "id": "1ac2aa6f-1b69-47e6-9d04-2e2cdebbba97",
+      "comment": "",
+      "command": "type",
+      "target": "name=personal.profileLinks[0].link",
+      "targets": [
+        ["id=52394471-d5a5-4254-aad2-e28ef7617dd9", "id"],
+        ["name=personal.profileLinks[0].link", "name"],
+        ["css=#\\35 2394471-d5a5-4254-aad2-e28ef7617dd9", "css:finder"],
+        ["xpath=//input[@id='52394471-d5a5-4254-aad2-e28ef7617dd9']", "xpath:attributes"],
+        ["xpath=//div[@id='step--personal']/fieldset/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "https://chiaoweihsu.com"
+    }, {
+      "id": "e363caea-aa36-4acc-a0f9-73a010ae102e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tds-icon-trigger",
+      "targets": [
+        ["css=.tds-icon-plus-small > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea34fb61-3b91-436a-b828-b007d46b4364",
+      "comment": "",
+      "command": "select",
+      "target": "name=personal.profileLinks[1].type",
+      "targets": [],
+      "value": "label=LinkedIn"
+    }, {
+      "id": "b45c2e58-cdd2-49e7-8fe9-8ee9f0ec8bd4",
+      "comment": "",
+      "command": "type",
+      "target": "name=personal.profileLinks[1].link",
+      "targets": [],
+      "value": "https://linkedin.com/in/chiao-wei-hsu"
+    }, {
+      "id": "04462a84-cef5-4fc4-a7ab-9db589bc3faf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tds-btn--tertiary",
+      "targets": [
+        ["css=.tds-btn--tertiary", "css:finder"],
+        ["xpath=//div[@id='step--personal']/fieldset/div/div/div[4]/label", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/div[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Select File')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5525b908-3db7-45b2-a438-616f4fb1d907",
+      "comment": "",
+      "command": "click",
+      "target": "name=next",
+      "targets": [
+        ["name=next", "name"],
+        ["css=.tds-btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@name='next']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89ff4676-bbab-4464-be14-e0eafa961341",
+      "comment": "",
+      "command": "//type",
+      "target": "name=job.jobAvailabilityToStartInternship",
+      "targets": [],
+      "value": "January 6, 2025"
+    }, {
+      "id": "7ca28ce7-3382-4caa-b46f-eac249ae0001",
+      "comment": "",
+      "command": "select",
+      "target": "name=job.jobInternshipDuration",
+      "targets": [],
+      "value": "label=6 months"
+    }, {
+      "id": "64b56c16-2afb-4007-8ce8-6c2ecdd20b9c",
+      "comment": "",
+      "command": "select",
+      "target": "name=job.jobInternshipType",
+      "targets": [],
+      "value": "value=part_time"
+    }, {
+      "id": "311cd7cf-1e22-46fc-8951-0c23bb7271f7",
+      "comment": "",
+      "command": "click",
+      "target": "name=job.jobAvailabilityToStartInternship",
+      "targets": [
+        ["id=3c1aa58b-88eb-4753-832c-a5612e34c52b", "id"],
+        ["name=job.jobAvailabilityToStartInternship", "name"],
+        ["css=#\\33 c1aa58b-88eb-4753-832c-a5612e34c52b", "css:finder"],
+        ["xpath=//input[@id='3c1aa58b-88eb-4753-832c-a5612e34c52b']", "xpath:attributes"],
+        ["xpath=//div[@id='step--job']/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef9bb578-d3a7-4b37-bcdd-fc4766331608",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tds-icon-chevron-small-90",
+      "targets": [
+        ["css=.tds-icon-chevron-small-90", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0e9aa8f-692f-4057-8979-630fcbb6332a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tds-icon-chevron-small-90",
+      "targets": [
+        ["css=.tds-icon-chevron-small-90", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e1f36b9-00c0-4c0f-8422-676b50789f39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tds-icon-chevron-small-90",
+      "targets": [
+        ["css=.tds-icon-chevron-small-90", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d0627aa-6e13-4d44-98b2-f6972be3eeb3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tds-day:nth-child(9) > span",
+      "targets": [
+        ["css=.tds-day:nth-child(9) > span", "css:finder"],
+        ["xpath=//div[@id='step--job']/fieldset/div/div/div/div[2]/div/div[3]/button[9]/span", "xpath:idRelative"],
+        ["xpath=//button[9]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5cef22c-4b85-471a-bff0-70126f180b38",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[name='job.jobInternshipThesis'][value='no']",
+      "targets": [
+        ["id=859b1655-c359-4108-9a3e-993dc822cfab_no", "id"],
+        ["css=#\\38 59b1655-c359-4108-9a3e-993dc822cfab_no", "css:finder"],
+        ["xpath=//input[@id='859b1655-c359-4108-9a3e-993dc822cfab_no']", "xpath:attributes"],
+        ["xpath=//div[@id='step--job']/fieldset/div[4]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60c0c782-4082-4e00-84cf-08871dc3459d",
+      "comment": "",
+      "command": "click",
+      "target": "name=next",
+      "targets": [
+        ["name=next", "name"],
+        ["css=.tds-btn:nth-child(2)", "css:finder"],
+        ["xpath=//button[@name='next']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/form/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e757d518-1ceb-45ba-b11f-96048be84534",
+      "comment": "",
+      "command": "select",
+      "target": "name=legal.legalNoticePeriod",
+      "targets": [],
+      "value": "label=In 1-2 weeks"
+    }, {
+      "id": "2bb37876-1ae1-4320-a4b7-d28f8d3e4e99",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[name='legal.legalImmigrationSponsorship'][value='yes']",
+      "targets": [
+        ["id=416615d7-298e-4b34-8fef-ffca2ebd43ff_yes", "id"],
+        ["name=legal.legalImmigrationSponsorship", "name"],
+        ["css=#\\34 16615d7-298e-4b34-8fef-ffca2ebd43ff_yes", "css:finder"],
+        ["xpath=//input[@id='416615d7-298e-4b34-8fef-ffca2ebd43ff_yes']", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc4a2b41-8a7c-4492-81a6-62ac8931f88a",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[name='legal.legalConsiderOtherPositions'][value='yes']",
+      "targets": [
+        ["id=75dc6819-1a5d-4c17-82bc-6bbfc1398783_yes", "id"],
+        ["name=legal.legalConsiderOtherPositions", "name"],
+        ["css=#\\37 5dc6819-1a5d-4c17-82bc-6bbfc1398783_yes", "css:finder"],
+        ["xpath=//input[@id='75dc6819-1a5d-4c17-82bc-6bbfc1398783_yes']", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46420282-e577-4f12-9abc-2a100a7c1bef",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[name='legal.legalFormerTeslaEmployee'][value='no']",
+      "targets": [
+        ["id=7cb60bf2-e0b8-453f-bc11-1ba91fe94dce_no", "id"],
+        ["css=#\\37 cb60bf2-e0b8-453f-bc11-1ba91fe94dce_no", "css:finder"],
+        ["xpath=//input[@id='7cb60bf2-e0b8-453f-bc11-1ba91fe94dce_no']", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[4]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb090fd3-4b46-48f7-a24c-6a660480f368",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[name='legal.legalFormerTeslaInternOrContractor'][value='no']",
+      "targets": [
+        ["id=94a0ba02-2fb4-43a9-8920-93861eb3043a_yes", "id"],
+        ["name=legal.legalReceiveNotifications", "name"],
+        ["css=#\\39 4a0ba02-2fb4-43a9-8920-93861eb3043a_yes", "css:finder"],
+        ["xpath=//input[@id='94a0ba02-2fb4-43a9-8920-93861eb3043a_yes']", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[6]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa29ab8d-f243-4c8b-b042-583ba9b5fd02",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[name='legal.legalUniversityStudent'][value='yes']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81f4f91a-3e8b-4bc4-9ce9-949493fc227d",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[name='legal.legalReceiveNotifications'][value='yes']",
+      "targets": [
+        ["id=1701ca75-a421-4069-a143-010a9bbc8b34_no", "id"],
+        ["css=#\\31 701ca75-a421-4069-a143-010a9bbc8b34_no", "css:finder"],
+        ["xpath=//input[@id='1701ca75-a421-4069-a143-010a9bbc8b34_no']", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[5]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97743d50-0ec7-4451-b918-b496e7035419",
+      "comment": "",
+      "command": "click",
+      "target": "name=legal.legalAcknowledgment",
+      "targets": [
+        ["id=e2016c99-9d5b-439b-9b1f-9de457fc032e", "id"],
+        ["name=legal.legalAcknowledgment", "name"],
+        ["css=#e2016c99-9d5b-439b-9b1f-9de457fc032e", "css:finder"],
+        ["xpath=//input[@id='e2016c99-9d5b-439b-9b1f-9de457fc032e']", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "636c7fd1-fe39-49f0-9cb6-b503a70a5812",
+      "comment": "",
+      "command": "type",
+      "target": "name=legal.legalAcknowledgmentName",
+      "targets": [
+        ["id=8fcdea69-6357-4ae7-a526-208e9eb427c3", "id"],
+        ["name=legal.legalAcknowledgmentName", "name"],
+        ["css=#\\38 fcdea69-6357-4ae7-a526-208e9eb427c3", "css:finder"],
+        ["xpath=//input[@id='8fcdea69-6357-4ae7-a526-208e9eb427c3']", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset[2]/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "Chiao-Wei Hsu"
+    }, {
+      "id": "a482a935-438e-44f6-878f-1f7d5c56778b",
+      "comment": "",
+      "command": "click",
+      "target": "name=next",
+      "targets": [
+        ["name=next", "name"],
+        ["css=.tds-btn:nth-child(2)", "css:finder"],
+        ["xpath=//button[@name='next']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/form/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64551985-1136-4031-a1c9-23102e48bef3",
+      "comment": "",
+      "command": "select",
+      "target": "name=eeo.eeoGender",
+      "targets": [
+        ["css=.tds-form-layout--multicolumn:nth-child(1) > .tds-form-item:nth-child(1) > .tds-form-input", "css:finder"],
+        ["xpath=//div[@id='step--eeo']/fieldset[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "label=I choose not to disclose"
+    }, {
+      "id": "201ae544-42a1-489f-ad61-35fcafe6b5ee",
+      "comment": "",
+      "command": "select",
+      "target": "name=eeo.eeoVeteranStatus",
+      "targets": [],
+      "value": "label=I am not a protected veteran"
+    }, {
+      "id": "a0669005-71ab-4724-add5-f2b2ad33bb8b",
+      "comment": "",
+      "command": "select",
+      "target": "name=eeo.eeoRaceEthnicity",
+      "targets": [],
+      "value": "label=I choose not to disclose"
+    }, {
+      "id": "e57a1f2a-efde-4993-91ba-91afacaa0023",
+      "comment": "",
+      "command": "select",
+      "target": "name=eeo.eeoDisabilityStatus",
+      "targets": [],
+      "value": "label=No, I do not have a disability and have not had one in the past"
+    }, {
+      "id": "ee27fd82-0902-4881-9aa1-f42b86ae1ad4",
+      "comment": "",
+      "command": "type",
+      "target": "name=eeo.eeoDisabilityStatusName",
+      "targets": [
+        ["id=87973e7a-e6c1-4e20-8156-3b033f03debf", "id"],
+        ["name=eeo.eeoDisabilityStatusName", "name"],
+        ["css=#\\38 7973e7a-e6c1-4e20-8156-3b033f03debf", "css:finder"],
+        ["xpath=//input[@id='87973e7a-e6c1-4e20-8156-3b033f03debf']", "xpath:attributes"],
+        ["xpath=//div[@id='step--eeo']/fieldset[2]/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "Chiao-Wei Hsu"
+    }, {
+      "id": "0a3ab9db-1ce1-4cde-96f9-0638547407ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(12) > p:nth-child(2)",
+      "targets": [
+        ["css=div:nth-child(12) > p:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='step--eeo']/fieldset/div/div/div[5]/p[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Tesla is committed to working with and providing reasonable accommodations to individuals with disabilities. If you need a reasonable accommodation because of a disability for any part of the employment process, please call 510-602-3960 or send an e-mail to accommodationrequest@tesla.com and let us know the nature of your request and your contact information.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "864bbcae-18a1-4bd8-800e-0f5be8ab50b8",
+      "comment": "",
+      "command": "click",
+      "target": "name=eeo.eeoAcknowledgment",
+      "targets": [
+        ["id=2112b6e9-df88-41c2-8432-256e50989cc2", "id"],
+        ["name=eeo.eeoAcknowledgment", "name"],
+        ["css=#\\32 112b6e9-df88-41c2-8432-256e50989cc2", "css:finder"],
+        ["xpath=//input[@id='2112b6e9-df88-41c2-8432-256e50989cc2']", "xpath:attributes"],
+        ["xpath=//div[@id='step--eeo']/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c48c4fa6-17ec-4f83-97aa-de121955c18b",
+      "comment": "",
+      "command": "click",
+      "target": "name=previous",
+      "targets": [
+        ["name=previous", "name"],
+        ["css=.tds-btn--secondary", "css:finder"],
+        ["xpath=//button[@name='previous']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Previous')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d4a4fae-d2ee-4888-b821-d2cdd82620d8",
+      "comment": "",
+      "command": "click",
+      "target": "name=legal.legalUniversityAnticipatedGraduationDate",
+      "targets": [
+        ["id=c69a25df-be50-424b-a783-c62e3c1b734c", "id"],
+        ["name=legal.legalUniversityAnticipatedGraduationDate", "name"],
+        ["css=#c69a25df-be50-424b-a783-c62e3c1b734c", "css:finder"],
+        ["xpath=//input[@id='c69a25df-be50-424b-a783-c62e3c1b734c']", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[7]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e542ba2-5282-44d4-abc8-4a7fe05ba2d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tds-date-picker-month > button:nth-child(3)",
+      "targets": [
+        ["css=.tds-date-picker-month > button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[7]/div/div/div[2]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb7ab5df-26ac-4956-a92e-e6b4b8e9777e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tds-date-picker-month > button:nth-child(3)",
+      "targets": [
+        ["css=.tds-date-picker-month > button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[7]/div/div/div[2]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0adbada7-57d8-4ee1-a2ac-26c9a07313f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tds-date-picker-month > button:nth-child(3)",
+      "targets": [
+        ["css=.tds-date-picker-month > button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[7]/div/div/div[2]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40ddc641-bee6-46ec-81e7-f642cc9ac8ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tds-date-picker-month > button:nth-child(3)",
+      "targets": [
+        ["css=.tds-date-picker-month > button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[7]/div/div/div[2]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e2a5825-5b54-4a24-8512-d0ea64a604c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tds-date-picker-month > button:nth-child(3)",
+      "targets": [
+        ["css=.tds-date-picker-month > button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[7]/div/div/div[2]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e1bd2f4-3a44-4725-904e-f39696ab6fba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tds-date-picker-month > button:nth-child(3)",
+      "targets": [
+        ["css=.tds-date-picker-month > button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[7]/div/div/div[2]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3843a159-eeaf-4f9c-97c2-bdb1f65ae1df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tds-date-picker-month > button:nth-child(3)",
+      "targets": [
+        ["css=.tds-date-picker-month > button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[7]/div/div/div[2]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e62be554-ddaa-4f97-a6a8-2c49c810e277",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tds-date-picker-month > button:nth-child(3)",
+      "targets": [
+        ["css=.tds-date-picker-month > button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[7]/div/div/div[2]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66efeadf-a92f-4f0b-acf9-8f0283495674",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tds-day:nth-child(23) > span",
+      "targets": [
+        ["css=.tds-day:nth-child(23) > span", "css:finder"],
+        ["xpath=//div[@id='step--legal']/fieldset/div[7]/div/div/div[2]/div/div[3]/button[23]/span", "xpath:idRelative"],
+        ["xpath=//button[23]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'23')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b301182b-ec2f-4f94-a69a-60c6d128c0e0",
+      "comment": "",
+      "command": "click",
+      "target": "name=next",
+      "targets": [
+        ["name=next", "name"],
+        ["css=.tds-btn:nth-child(2)", "css:finder"],
+        ["xpath=//button[@name='next']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/form/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bad36c51-772d-4f75-8450-5a1d80581e50",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.tesla.com/", "https://www.tesla.com/careers/search/job/apply/225289"],
+  "plugins": []
+}
